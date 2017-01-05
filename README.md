@@ -1,7 +1,7 @@
-Export Sozi presentations to PDF, PPTX or video
+Export Sozi presentations to .png frames for video
 ===============================================
 
-This tool is separate from the Sozi presentation editor.
+This fork from Sozi-export is adapted for the tool to export .pngs to create frames, which can then be imported into the Video Sequence Editor in Blender.
 
 Install
 -------
@@ -14,14 +14,7 @@ Users of Debian-based distributions can install the *texlive-extra-utils* and *l
 apt-get install texlive-extra-utils libav-tools
 ```
 
-The Sozi export tool is available as an NPM package.
-Install [node.js](https://nodejs.org/) 0.10 or later
-(Linux users can use the [NodeSource distributions](https://github.com/nodesource/distributions)),
-then:
 
-```bash
-npm install -g sozi-export
-```
 
 Convert a Sozi presentation to PDF
 ----------------------------------
